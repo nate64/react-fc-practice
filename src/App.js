@@ -1,3 +1,7 @@
+//need to straighten out card from deck (deck = a deck, card = single card)
+//sudo code some more and think this through
+
+
 import React, { Component } from 'react';
 import Card from './Card'
 
@@ -20,6 +24,8 @@ displayCards() {
   })
 }
 
+
+
 render() {
   return(
     <div>
@@ -32,7 +38,6 @@ render() {
     </div>
   )
 }
-
 }
 
 
