@@ -1,0 +1,14 @@
+functions I need
+
+addCard
+
+flipCard
+
+remove card- eventually 
+
+
+
+
+deck= the array of cards (I dont want to use deck anywhere else)
+
+card - single card
