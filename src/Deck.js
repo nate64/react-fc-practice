@@ -14,4 +14,4 @@ class Deck extends React.Component {
 }
 
 
-export default Card;
+export default Deck;

@@ -3,12 +3,12 @@
 
 
 import React, { Component } from 'react';
-import Card from './Card'
+import Deck from './Deck'
 
 class App extends React.Component {
 
 state = {
-  Deck: [
+  deck: [
     { id: 1, front: 'front', back: 'back' },
     { id: 2, front: 'front2', back: 'back'},
     { id: 3, front: 'front3', back: 'back'},
@@ -17,11 +17,15 @@ state = {
 }
 
 displayCards() {
-  return this.state.Deck.map(card => {
-    return <button onClick = {() => this.flipCard.card }>
+  return this.state.deck.map(card => {
+    return <button onClick = {() => this.flipCard.deck }>
     {card.front}
     </button>
   })
+}
+
+flipCard() {
+
 }
 
 
